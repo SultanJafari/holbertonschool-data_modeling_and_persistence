@@ -1,3 +1,2 @@
-UPDATE books
-SET stock = stock + 3
-WHERE stock < 5;
+DELETE FROM books
+WHERE stock = 0;
